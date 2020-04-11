@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { ListProductsComponent } from './list-products/list-products.component';
 import { ViewProductsComponent } from './view-products/view-products.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ZadachiComponent } from './zadachi/zadachi.component';
+import { OdnComponent } from './odn/odn.component';
 
 @NgModule({
    declarations: [
       AppComponent,
       ListProductsComponent,
-      ViewProductsComponent
+      ViewProductsComponent,
+      ZadachiComponent,
+      OdnComponent,
    ],
    imports: [
       BrowserModule,

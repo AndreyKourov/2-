@@ -1,7 +1,8 @@
 <a routerLink="/">На главную</a>
-
+<br>
+<a routerLink="/tasks">Задачи</a>
 <ul>
-  <li *ngFor="let product of products"> 
+  <li *ngFor="let product of products">
     <h3> {{product.title}} </h3>
     <p> {{product.anons}} </p>
     <span> {{product.price}} рублей </span>

@@ -1,0 +1,11 @@
+
+<a routerLink="/">На главную</a>
+
+<ul>
+  <li *ngFor="let zadachi of zadachis">
+    <h3> {{zadachi.title}} </h3>
+    <p> {{zadachi.desc}} </p>
+    <span> {{zadachi.minutes}} минут </span>
+    <a [routerLink]=" '/odn/' + zadachi.id ">Далее</a>
+  </li>
+</ul>
